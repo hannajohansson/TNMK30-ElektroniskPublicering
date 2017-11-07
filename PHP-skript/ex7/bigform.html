@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<!-- TNMK30 / FO5 / EX7 / bigform.html -->
+
+<html>
+<head>
+   <title>Ex 7 Big Form</title>
+</head>
+
+<body>
+<h1>Big Form</h1>
+
+<form id="form" action="echoform.php" method="get">
+   
+   <p><!-- hidden -->
+      hidden ...
+      <input type="hidden" name="hdn" value="xyz" />
+   </p>
+
+   <p><!-- text -->
+      <label>
+	 text: &nbsp;
+	 <input type="text" name="txt" size="10" />
+      </label>
+   </p>
+
+   <p><!-- password -->
+      <label>
+	 password: &nbsp;
+	 <input type="password" name="pwd" size="10" />
+      </label>
+   </p>
+
+   <p><!-- textarea -->
+      <label>
+	 textarea: &nbsp;
+	 <textarea name="txa" rows="3" cols="10"></textarea>
+      </label>
+   </p>
+
+   <p><!-- checkbox -->
+      checkbox: &nbsp;
+      <label>
+	 chk1
+	 <input type="checkbox" name="chk1" value="1" /> <!-- checked="checked" -->
+      </label>
+      <label>
+	 chk2
+	 <input type="checkbox" name="chk2" value="2" />
+      </label>
+   </p>
+
+   <p><!-- radio -->
+      radio: &nbsp;
+      <label>
+	 rdb1
+	 <input type="radio" name="rdb" value="1" /> <!-- checked="checked" -->
+      </label>
+      <label>
+	 rdb2
+	 <input type="radio" name="rdb" value="2" />
+      </label>
+   </p>
+
+   <p><!-- option -->
+      <label>
+	 select: &nbsp;
+	 <select name="opt">
+	    <option selected="selected">option</option>
+	    <option>1</option>
+	    <option>2</option>
+	    <option>3</option>
+	 </select>
+      </label>
+   </p>
+
+   <p><!-- submit & reset -->
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+   </p>
+
+</form>
+
+</body>
+</html>

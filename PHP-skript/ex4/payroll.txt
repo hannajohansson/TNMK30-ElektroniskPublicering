@@ -1,0 +1,3 @@
+Smith : 8000
+Jones : 5000
+Blake : 6000
