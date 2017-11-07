@@ -1,0 +1,37 @@
+h1  {
+	    background-color: #17D9F7;
+		color: #910DCF;
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 50pt;
+		text-align: center;
+		border: 10px solid #910DCF;
+		padding: 15px;
+		margin: 10px;
+		margin-bottom: 50px;
+	}
+body{
+		background: url("discoball.jpg");
+	}
+a	{
+		background-color: #17D9F7;
+		color: #910DCF;
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 25pt;
+		text-align: center;
+		border: 10px solid #910DCF;
+		padding: 15px;
+		margin: 10px;
+		margin-bottom: 50px;
+	}	
+#image {
+	display: none;
+}
+#flipimage {
+	display: none;
+}
+#button {
+	position: absolute;
+	left: 700px;
+	top: 350px;
+	
+}

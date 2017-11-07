@@ -1,0 +1,51 @@
+h1  {
+	    background: url("Jungle.jpg");
+		color: yellow;
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 90pt;
+		text-align: center;
+		border: 10px solid #FFCC33;
+		padding: 15px;
+		margin: 10px;
+		margin-bottom: 50px;
+		}
+	h2  {
+		color: yellow;
+		font-family: 'Cherry Swash', cursive;
+	    }
+	h3  {
+		font-family: 'Cherry Swash', cursive;
+		color: yellow;
+		}
+	.rightimage 
+	    {
+		float: center;
+		margin: 20px;
+		padding: 0px;
+		margin-top: 40px;
+	    }
+	p   {
+	    font-family: verdana, helvetica, arial, sans-serif;
+		margin-bottom: 50px;
+	    }
+	body{
+		background-color: #d7e5d5;
+		}
+	.nomargin
+		{
+		margin-bottom: 6px;
+		}
+	img {
+	    border: 6px solid #FFCC33;
+	    }
+	#center
+		{
+		margin: auto;
+		max-width: 24cm;
+		}
+		
+	a	{
+		font-family: 'Cherry Swash', cursive;
+		font-size: 16pt;
+		color: black;		
+		}
